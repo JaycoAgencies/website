@@ -4,16 +4,11 @@ import { FC } from 'react';
 
 interface IText {
   text: string;
-  variant: variant;
   className?: string;
 }
 
-const Text: FC<IText> = ({ text, variant, className }) => {
-  return (
-    <Typography variant={variant} className={className}>
-      {text}
-    </Typography>
-  );
+const Text: FC<IText> = ({ text, className }) => {
+  return <Typography className={className}>{text}</Typography>;
 };
 
 export default Text;
