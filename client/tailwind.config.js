@@ -13,8 +13,19 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        light: '#ffffff',
-        dark: '#1B1928',
+        textBlack: '#000000',
+        buttonLight: '#1D2D81',
+        textLight: '#1D2D80',
+        textWhite: '#ffffff',
+        buttonDark: '#ADC58F',
+        textDark: '#ADC58F',
+      },
+      screens: {
+        mobile: { min: '320px', max: '480px' },
+        tablet: { min: '481px', max: '768px' },
+        laptop: { min: '769px', max: '1024px' },
+        desktop: { min: '1025px', max: '1200px' },
+        wide: { min: '1201px', max: '2000px' },
       },
     },
   },
