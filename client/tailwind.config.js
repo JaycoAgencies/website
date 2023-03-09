@@ -20,6 +20,9 @@ module.exports = withMT({
         buttonDark: '#ADC58F',
         textDark: '#ADC58F',
       },
+      backgroundImage: {
+        servicesCardBg: "url('../../public/assets/images/service_bg.svg')",
+      },
       screens: {
         mobile: { min: '320px', max: '480px' },
         tablet: { min: '481px', max: '768px' },

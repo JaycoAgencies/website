@@ -9,7 +9,7 @@ const BaseLayout: FC<IBaseLayout> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className="desktop:container desktop:mx-auto wide:container wide:mx-auto">{children}</div>
+      <div className="max-w-[1440px] mx-auto">{children}</div>
     </>
   );
 };

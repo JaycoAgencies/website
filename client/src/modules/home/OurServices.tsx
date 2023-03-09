@@ -14,21 +14,21 @@ const OurServices = () => {
     {
       id: 2,
       title: 'Agriculture Industry',
-      imageUrl: '',
+      imageUrl: chemical,
       description: 'Minimal description of the service can be pasted here',
       routingUrl: 'http://google.com',
     },
     {
       id: 3,
       title: 'Insurance Industry',
-      imageUrl: '',
+      imageUrl: chemical,
       description: 'Minimal description of the service can be pasted here',
       routingUrl: 'http://google.com',
     },
   ];
 
   return (
-    <section>
+    <section className='px-20'>
       <div className="flex justify-start items-center gap-4">
         <Text
           className="dark:textDark text-textBlack text-[64px] uppercase"
@@ -40,12 +40,13 @@ const OurServices = () => {
         ></Text>
       </div>
 
-      <div className="grid-cols-3 grid gap-20">
+      <div className="grid-cols-3 grid gap-20 mt-16">
         {servicesList.map((service) => {
           return (
             <ServicesCard
+              key={service.id}
               title={service.title}
-              imageUrl={service.imageUrl as string}
+              imageUrl={service.imageUrl}
               description={service.description}
               routingUrl={service.routingUrl}
             />

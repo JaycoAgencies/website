@@ -1,16 +1,23 @@
-import NextImage from 'next/image';
+import NextImage, { StaticImageData } from 'next/image';
 import { FC } from 'react';
 
 interface IImage {
-  src: string;
+  src: StaticImageData;
   alt: string;
   width: number;
   height: number;
+  className?: string;
 }
 
-const Image: FC<IImage> = ({ src, alt, width, height }) => {
+const Image: FC<IImage> = ({ src, alt, width, height , className }) => {
   return (
-    <NextImage src={src} alt={alt} width={width} height={height}></NextImage>
+    <NextImage
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      className={className}
+    ></NextImage>
   );
 };
 
