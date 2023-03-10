@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar';
+import ConnectWithUs from '../common/ConnectWithUs';
 import AboutUs from './AboutUs';
 import OurServices from './OurServices';
 import ValuesWeProvide from './VauesWeProvide';
@@ -11,6 +12,7 @@ const Home = () => {
       <OurServices></OurServices>
       <AboutUs description={description} />
       <ValuesWeProvide />
+      <ConnectWithUs />
     </>
   );
 };
