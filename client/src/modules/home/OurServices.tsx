@@ -1,4 +1,5 @@
 import ServicesCard from '@/components/cards/Service.card';
+import SectionLayout from '@/components/styling/sectionLayout';
 import Text from '@/components/Text';
 import chemical from 'public/assets/images/chemical.png';
 
@@ -28,7 +29,7 @@ const OurServices = () => {
   ];
 
   return (
-    <section className='px-20'>
+    <SectionLayout>
       <div className="flex justify-start items-center gap-4">
         <Text
           className="dark:textDark text-textBlack text-[64px] uppercase"
@@ -53,7 +54,7 @@ const OurServices = () => {
           );
         })}
       </div>
-    </section>
+    </SectionLayout>
   );
 };
 
