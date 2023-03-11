@@ -4,11 +4,15 @@ import {
 } from '@material-tailwind/react';
 import { FC } from 'react';
 
-interface IButton extends ButtonProps {}
+interface IButton {
+  title: string;
+  className: string;
+  onClick: any;
+}
 
-const Button: FC<IButton> = ({ onClick, className, color, title }) => {
+const Button: FC<IButton> = ({ onClick, className, title }) => {
   return (
-    <MaterialButton onClick={onClick} className={className} color={color}>
+    <MaterialButton onClick={onClick} className={className}>
       {title}
     </MaterialButton>
   );
