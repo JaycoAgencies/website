@@ -1,22 +1,22 @@
 import { FC } from 'react';
 import Text from '../Text';
-import value from 'public/assets/images/value.png';
-import value2 from 'public/assets/images/value2.png';
 import Image from '@/components/Image';
+import { StaticImageData } from 'next/image';
 interface ValueCard {
   title: string;
   description: string;
   imagePosition: 'left' | 'right';
+  imageSrc: StaticImageData;
 }
 
-const ValueCard: FC<ValueCard> = ({ title, description, imagePosition }) => {
+const ValueCard: FC<ValueCard> = ({ title, description, imagePosition , imageSrc }) => {
   return (
     <div
       className={`flex gap-10 items-center ${
         imagePosition === 'left' ? 'flex-row-reverse' : 'flex-row'
       }`}
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 ">
         <Text
           text={title}
           className={'text-white font-medium text-3xl pb-2'}
@@ -28,7 +28,7 @@ const ValueCard: FC<ValueCard> = ({ title, description, imagePosition }) => {
         ></Text>
       </div>
       <div className="flex">
-        <Image src={value} alt={'value'} width={293} height={386}></Image>
+        <Image src={imageSrc} alt={'value'} width={293} height={386}></Image>
       </div>
     </div>
   );

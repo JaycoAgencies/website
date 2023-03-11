@@ -1,8 +1,10 @@
 import ValueCard from '@/components/cards/Value.card';
-
 import SectionLayout from '@/components/styling/sectionLayout';
 import Text from '@/components/Text';
-
+import value1 from 'public/assets/images/value1.png';
+import value2 from 'public/assets/images/value2.png';
+import value3 from 'public/assets/images/value3.png';
+import value4 from 'public/assets/images/value4.png';
 
 const ValuesWeProvide = () => {
   return (
@@ -14,29 +16,33 @@ const ValuesWeProvide = () => {
         ></Text>
       </div>
 
-      <div className="flex mt-10 gap-20 justify-end items-center">
+      <div className="flex mt-10  justify-end items-center">
         <div className="flex flex-col justify-between items-center">
           <ValueCard
-            title="Value"
+            imageSrc={value1}
+            title="Value 1"
             description="Lorem Ipsum has been the industry's standard dummy"
             imagePosition={'right'}
           ></ValueCard>
 
           <ValueCard
-            title="Value"
+            imageSrc={value3}
+            title="Value 3"
             description="Lorem Ipsum has been the industry's standard dummy"
             imagePosition={'right'}
           ></ValueCard>
         </div>
         <div className="flex flex-col justify-between">
           <ValueCard
-            title="Value"
+            imageSrc={value2}
+            title="Value 2"
             description="Lorem Ipsum has been the industry's standard dummy"
             imagePosition={'left'}
           ></ValueCard>
 
           <ValueCard
-            title="Value"
+            imageSrc={value4}
+            title="Value 4"
             description="Lorem Ipsum has been the industry's standard dummy"
             imagePosition={'left'}
           ></ValueCard>

@@ -9,7 +9,7 @@ interface IInput {
 
 const Input: FC<IInput> = ({
   label,
-  className = 'rounded-none',
+  className = 'rounded-none focus:rounded-none active:rounded-none',
   isRequired = false,
 }) => {
   return (
