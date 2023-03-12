@@ -31,14 +31,8 @@ const OurServices = () => {
   return (
     <SectionLayout>
       <div className="flex justify-start items-center gap-4">
-        <Text
-          className="dark:textDark text-textBlack text-[64px] uppercase"
-          text="Our"
-        ></Text>
-        <Text
-          className="dark:textDark text-textLight text-[64px] uppercase"
-          text="Services."
-        ></Text>
+        <Text className="dark:textDark text-textBlack text-[64px] uppercase" text="Our"></Text>
+        <Text className="dark:textDark text-textLight text-[64px] uppercase" text="Services."></Text>
       </div>
 
       <div className="grid-cols-3 grid gap-20 mt-16">

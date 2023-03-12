@@ -1,7 +1,4 @@
-import {
-  Button as MaterialButton,
-  ButtonProps,
-} from '@material-tailwind/react';
+import { Button as MaterialButton, ButtonProps } from '@material-tailwind/react';
 import { FC } from 'react';
 
 interface IButton {

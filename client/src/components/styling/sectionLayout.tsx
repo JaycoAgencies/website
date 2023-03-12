@@ -6,11 +6,7 @@ interface ISectionLayout {
 }
 
 const SectionLayout: FC<ISectionLayout> = ({ children, className }) => {
-  return (
-    <section className={className ? className : 'px-20 mt-10 mb-10'}>
-      {children}
-    </section>
-  );
+  return <section className={className ? className : 'px-20 mt-10 mb-10'}>{children}</section>;
 };
 
 export default SectionLayout;

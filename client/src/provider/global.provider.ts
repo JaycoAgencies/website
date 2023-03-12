@@ -1,5 +1,3 @@
-const GlobalProvider = () => {
-    
-};
+const GlobalProvider = () => {};
 
 export default GlobalProvider;

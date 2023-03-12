@@ -10,10 +10,7 @@ const ValuesWeProvide = () => {
   return (
     <SectionLayout className="bg-[#353A52] p-[112px]">
       <div className="flex w-full justify-center">
-        <Text
-          text={'Values we provide.'}
-          className="dark:textDark text-white text-[64px] uppercase"
-        ></Text>
+        <Text text={'Values we provide.'} className="dark:textDark text-white text-[64px] uppercase"></Text>
       </div>
 
       <div className="flex mt-10  justify-end items-center">

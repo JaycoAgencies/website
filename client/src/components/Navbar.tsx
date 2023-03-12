@@ -1,7 +1,4 @@
-import {
-  Navbar as MaterialNavbar,
-  NavbarProps,
-} from '@material-tailwind/react';
+import { Navbar as MaterialNavbar, NavbarProps } from '@material-tailwind/react';
 import { FC } from 'react';
 import Text from './Text';
 
