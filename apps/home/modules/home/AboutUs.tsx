@@ -1,7 +1,8 @@
 
 import { FC } from 'react';
-import SectionLayout from 'ui/styling/sectionLayout';
-import Text from 'ui/Text';
+import SectionLayout from 'ui/components/styling/sectionLayout';
+import Text from 'ui/components/Text';
+
 
 interface IAboutUs {
   description: string;

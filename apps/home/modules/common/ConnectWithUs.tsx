@@ -1,12 +1,13 @@
-import Button from "ui/Button";
-import Input from "ui/Input";
-import SectionLayout from "ui/styling/sectionLayout";
-import Text from "ui/Text";
-import TextArea from "ui/TextArea";
-import TextIcon from "ui/TextIcon";
 import telephone from "public/assets/telephone.svg";
 import Whatsapp from "public/assets/whatsapp.svg";
 import location from "public/assets/location.svg";
+
+import SectionLayout from "ui/components/styling/sectionLayout";
+import TextArea from "ui/components/TextArea";
+import TextIcon from "ui/components/TextIcon";
+import Text from "ui/components/Text";
+import Input from "ui/components/Input";
+import Button from "ui/components/Button";
 
 const ConnectWithUs = () => {
   return (

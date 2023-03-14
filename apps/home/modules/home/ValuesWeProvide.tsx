@@ -2,9 +2,10 @@ import value1 from "public/assets/images/value1.png";
 import value2 from "public/assets/images/value2.png";
 import value3 from "public/assets/images/value3.png";
 import value4 from "public/assets/images/value4.png";
-import ValueCard from "ui/cards/Value.card";
-import SectionLayout from "ui/styling/sectionLayout";
-import Text from "ui/Text";
+import ValueCard from "ui/components/cards/Value.card";
+import SectionLayout from "ui/components/styling/sectionLayout";
+import Text from "ui/components/Text";
+
 
 const ValuesWeProvide = () => {
   return (

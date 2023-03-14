@@ -1,8 +1,9 @@
 
 import chemical from 'public/assets/images/chemical.png';
-import ServicesCard from 'ui/cards/Service.card';
-import SectionLayout from 'ui/styling/sectionLayout';
-import Text from 'ui/Text';
+import ServicesCard from 'ui/components/cards/Service.card';
+import SectionLayout from 'ui/components/styling/sectionLayout';
+import Text from 'ui/components/Text';
+
 
 const OurServices = () => {
   const servicesList = [

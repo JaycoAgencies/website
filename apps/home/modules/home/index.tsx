@@ -3,7 +3,7 @@ import ConnectWithUs from '../common/ConnectWithUs';
 import AboutUs from './AboutUs';
 import OurServices from './OurServices';
 import OurTrustedPartners from './OurTrustedPartners';
-import ValuesWeProvide from './VauesWeProvide';
+import ValuesWeProvide from './ValuesWeProvide';
 
 const Home = () => {
   const description =
