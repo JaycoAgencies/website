@@ -3,6 +3,7 @@ import chemical from 'public/assets/images/chemical.png';
 import ServicesCard from 'ui/components/cards/Service.card';
 import SectionLayout from 'ui/components/layout/sectionLayout';
 import Text from 'ui/components/Text';
+import { BASE_CONSTANTS_CLASS } from '../../constants/base.constants';
 
 
 const OurServices = () => {
@@ -31,7 +32,7 @@ const OurServices = () => {
   ];
 
   return (
-    <SectionLayout className='mt-[169px] mb-[168px] mx-[70px]'>
+    <SectionLayout className={`mt-[169px] mb-[168px]  ${BASE_CONSTANTS_CLASS.baseLayout}`}>
       <div className="flex justify-start items-center gap-4">
         <Text
           className="dark:textDark text-textBlack text-[64px] uppercase"

@@ -6,14 +6,14 @@ import { Icons } from "../../constants/icons.constants";
 
 const Front = () => {
   return (
-    <SectionLayout className="mx-[70px] mt-16">
-      <div className="flex items-center gap-10">
+    <SectionLayout className="mt-16 ">
+      <div className="flex items-center gap-20">
         <div className="flex-1">
           <Image
             src={Icons.frontPicture}
             alt={"raw"}
-            height={800}
-            width={824}
+            height={0}
+            width={0}
           ></Image>
         </div>
         <div className="flex flex-1   flex-col items-start justify-start ">
@@ -28,6 +28,7 @@ const Front = () => {
           ></Button>
         </div>
       </div>
+      <div className="absolute top-[40%] right-0 h-[613px] w-[130px] bg-textLight z-0"></div>
     </SectionLayout>
   );
 };

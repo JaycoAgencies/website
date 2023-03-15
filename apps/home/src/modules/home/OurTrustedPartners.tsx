@@ -1,12 +1,13 @@
 import PartnerCard from "ui/components/cards/Partner.card";
 import SectionLayout from "ui/components/layout/sectionLayout";
 import Text from "ui/components/Text";
+import { BASE_CONSTANTS_CLASS } from "../../constants/base.constants";
 import { Icons } from "../../constants/icons.constants";
 
 const OurTrustedPartners = () => {
   return (
-    <SectionLayout className="mx-[70px]">
-      <div className="flex">
+    <SectionLayout className={`mt-[169px] mb-[168px] mx-auto `}>
+      <div className="flex justify-center">
         <div className="flex  flex-col h-full">
           <div className=" flex gap-6 p-14 w-[477px] h-[421px]  flex-col items-start justify-start bg-[#353A52] mb-[38px] mr-[43px]">
             <div className="flex flex-col">

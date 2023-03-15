@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import Footer from '../Footer';
 import Navbar from '../Navbar';
 
 interface IBaseLayout {
@@ -8,11 +9,10 @@ interface IBaseLayout {
 const BaseLayout: FC<IBaseLayout> = ({ children }) => {
   return (
     <>
-      <Navbar />
-      <div className='max-w-[1440px] mx-auto'>
-      {children}
-      </div>
 
+      <Navbar />
+      {children}
+      <Footer/>
     </>
   );
 };

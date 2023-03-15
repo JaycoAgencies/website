@@ -9,15 +9,15 @@ import Text from "ui/components/Text";
 
 const ValuesWeProvide = () => {
   return (
-    <SectionLayout className="bg-[#353A52] p-[112px] mx-[70px]">
-      <div className="flex w-full justify-center">
+    <SectionLayout className="bg-[#353A52] p-[112px]">
+      <div className="flex w-full justify-center ">
         <Text
           text={"Values we provide."}
           className="dark:textDark text-[64px] uppercase text-white"
         ></Text>
       </div>
 
-      <div className="mt-10 flex  items-center justify-end">
+      <div className="mt-10 flex  items-center justify-center">
         <div className="flex flex-col items-center justify-between">
           <ValueCard
             imageSrc={value1}

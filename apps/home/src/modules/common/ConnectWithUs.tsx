@@ -5,11 +5,12 @@ import Text from "ui/components/Text";
 import Input from "ui/components/Input";
 import Button from "ui/components/Button";
 import { Icons } from "../../constants/icons.constants";
+import { BASE_CONSTANTS_CLASS } from "../../constants/base.constants";
 
 const ConnectWithUs = () => {
   return (
-    <SectionLayout className="mx-[70px] pt-[155px] pb-[155px]">
-      <div className="flex gap-40">
+    <SectionLayout className={`mx-auto pt-[155px] pb-[155px] flex justify-center items-center ${BASE_CONSTANTS_CLASS.baseLayout}`}>
+      <div className="flex gap-40 justify-center items-center">
         <div className="flex-1 ">
           <div className="mb-20">
             <Text

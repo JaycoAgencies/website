@@ -8,9 +8,9 @@ const Navbar: FC<INavbar> = ({}) => {
   return (
     <MaterialNavbar
       fullWidth={true}
-      className={`lg:fixed lg:top-0 h-16 shadow-none border-b border-[#EFEDED] border-solid`}
+      className={`lg:fixed lg:top-0 h-16 shadow-none border-b border-[#EFEDED] border-solid z-50`}
     >
-      <div className="max-w-[1440px] mx-20 flex items-center justify-between text-blue-gray-900">
+      <div className=" flex items-center justify-between text-blue-gray-900">
         <Text text="Jayco Industries" className="text-[20px] font-semibold" />
       </div>
     </MaterialNavbar>
