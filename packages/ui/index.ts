@@ -1,4 +1,3 @@
-import * as React from "react";
 export * from "./components/Button";
 export * from "./components/Footer";
 export * from "./components/Image";
@@ -12,5 +11,6 @@ export * from "./components/cards/Partner.card";
 export * from "./components/cards/Serve.card";
 export * from "./components/cards/Service.card";
 export * from "./components/cards/Value.card";
-export * from "./components/styling/BaseLayout";
-export * from "./components/styling/sectionLayout";
+export * from "./components/layout/BaseLayout";
+export * from "./components/layout/sectionLayout";
+

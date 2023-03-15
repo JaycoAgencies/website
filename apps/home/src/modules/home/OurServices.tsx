@@ -1,7 +1,7 @@
 
 import chemical from 'public/assets/images/chemical.png';
 import ServicesCard from 'ui/components/cards/Service.card';
-import SectionLayout from 'ui/components/styling/sectionLayout';
+import SectionLayout from 'ui/components/layout/sectionLayout';
 import Text from 'ui/components/Text';
 
 
@@ -31,7 +31,7 @@ const OurServices = () => {
   ];
 
   return (
-    <SectionLayout className='mt-[169px] mb-[168px] mx-20'>
+    <SectionLayout className='mt-[169px] mb-[168px] mx-[70px]'>
       <div className="flex justify-start items-center gap-4">
         <Text
           className="dark:textDark text-textBlack text-[64px] uppercase"

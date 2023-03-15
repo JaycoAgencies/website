@@ -1,6 +1,6 @@
 
 import { FC } from 'react';
-import SectionLayout from 'ui/components/styling/sectionLayout';
+import SectionLayout from 'ui/components/layout/sectionLayout';
 import Text from 'ui/components/Text';
 
 
@@ -10,7 +10,7 @@ interface IAboutUs {
 
 const AboutUs: FC<IAboutUs> = ({ description }) => {
   return (
-    <SectionLayout className='mt-[169px] mb-[168px] mx-20'>
+    <SectionLayout className='mt-[169px] mb-[168px] mx-[70px]'>
       <div className="flex justify-start items-center gap-4">
         <Text
           className="dark:textDark text-textBlack text-[64px] uppercase"

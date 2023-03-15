@@ -1,23 +1,20 @@
-import telephone from "public/assets/telephone.svg";
-import Whatsapp from "public/assets/whatsapp.svg";
-import location from "public/assets/location.svg";
-
-import SectionLayout from "ui/components/styling/sectionLayout";
+import SectionLayout from "ui/components/layout/sectionLayout";
 import TextArea from "ui/components/TextArea";
 import TextIcon from "ui/components/TextIcon";
 import Text from "ui/components/Text";
 import Input from "ui/components/Input";
 import Button from "ui/components/Button";
+import { Icons } from "../../constants/icons.constants";
 
 const ConnectWithUs = () => {
   return (
-    <SectionLayout>
+    <SectionLayout className="mx-[70px] pt-[155px] pb-[155px]">
       <div className="flex gap-40">
         <div className="flex-1 ">
           <div className="mb-20">
             <Text
               text="Connect"
-              className={"text-textLight text-[64px] uppercase"}
+              className={"text-[64px] uppercase text-textLight"}
             ></Text>
             <Text
               text="with us."
@@ -26,7 +23,7 @@ const ConnectWithUs = () => {
           </div>
 
           <div className="flex w-full flex-col">
-            <div className="border-textLight mb-10 flex border-b pb-8">
+            <div className="mb-10 flex border-b border-textLight pb-8">
               <Text text="Want to schedule a meeting? Click here to schedule in calendar"></Text>
             </div>
             <div className="flex flex-col gap-5">
@@ -34,19 +31,19 @@ const ConnectWithUs = () => {
                 <TextIcon
                   className="text-base font-light"
                   text={"04423422342"}
-                  icon={telephone}
+                  icon={Icons.telephone}
                 ></TextIcon>
                 <TextIcon
                   className="text-base font-light underline"
                   text={"919999999999"}
-                  icon={Whatsapp}
+                  icon={Icons.whatsapp}
                 ></TextIcon>
               </div>
               <div className="flex items-center">
                 <TextIcon
                   className="text-base font-light"
                   text={"xxx street, place, area, country 600106"}
-                  icon={location}
+                  icon={Icons.location}
                 ></TextIcon>
               </div>
             </div>
@@ -68,7 +65,7 @@ const ConnectWithUs = () => {
             <Button
               title="Enquire us"
               onClick={() => {}}
-              className="bg-buttonLight mt-7 h-[50px] w-[221px] rounded-none"
+              className="mt-7 h-[50px] w-[221px] rounded-none bg-buttonLight"
             ></Button>
           </form>
         </div>

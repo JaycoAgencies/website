@@ -3,13 +3,13 @@ import value2 from "public/assets/images/value2.png";
 import value3 from "public/assets/images/value3.png";
 import value4 from "public/assets/images/value4.png";
 import ValueCard from "ui/components/cards/Value.card";
-import SectionLayout from "ui/components/styling/sectionLayout";
+import SectionLayout from "ui/components/layout/sectionLayout";
 import Text from "ui/components/Text";
 
 
 const ValuesWeProvide = () => {
   return (
-    <SectionLayout className="bg-[#353A52] p-[112px]">
+    <SectionLayout className="bg-[#353A52] p-[112px] mx-[70px]">
       <div className="flex w-full justify-center">
         <Text
           text={"Values we provide."}
